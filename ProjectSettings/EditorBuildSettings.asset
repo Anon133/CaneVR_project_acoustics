@@ -1,0 +1,11 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/AcousticsDemo/ProjectAcousticsDemo.unity
+    guid: 7f3f63aba127b9649a27994d620a290f
+  m_configObjects: {}

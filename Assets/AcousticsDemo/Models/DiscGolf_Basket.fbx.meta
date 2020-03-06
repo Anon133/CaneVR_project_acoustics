@@ -1,0 +1,216 @@
+fileFormatVersion: 2
+guid: a168243f4b49aff4f9fd78386a1f74ba
+timeCreated: 1453457521
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: basket_metalParts
+    100002: basket_top
+    100004: ChainGroup001
+    100006: ChainGroup002
+    100008: ChainGroup003
+    100010: ChainGroup004
+    100012: ChainGroup005
+    100014: ChainGroup006
+    100016: ChainGroup007
+    100018: ChainGroup008
+    100020: ChainGroup009
+    100022: ChainGroup010
+    100024: ChainGroup011
+    100026: ChainGroup012
+    100028: curve1
+    100030: curve1BaseWire
+    100032: curve1BaseWire1
+    100034: curve1BaseWire10
+    100036: curve1BaseWire11
+    100038: curve1BaseWire2
+    100040: curve1BaseWire3
+    100042: curve1BaseWire4
+    100044: curve1BaseWire5
+    100046: curve1BaseWire6
+    100048: curve1BaseWire7
+    100050: curve1BaseWire8
+    100052: curve1BaseWire9
+    100054: curve2
+    100056: curve3
+    100058: curve3 1
+    100060: curve3 2
+    100062: curve3 3
+    100064: curve3 4
+    100066: curve3 5
+    100068: curve3 6
+    100070: curve3 7
+    100072: curve3 8
+    100074: curve3 9
+    100076: //RootNode
+    100078: pCylinder47
+    100080: pCylinder48
+    100082: pCylinder49
+    100084: pCylinder49 1
+    100086: pCylinder49 2
+    100088: pCylinder49 3
+    100090: pCylinder49 4
+    100092: pCylinder49 5
+    100094: pCylinder49 6
+    100096: pCylinder49 7
+    100098: pCylinder49 8
+    100100: pCylinder49 9
+    400000: basket_metalParts
+    400002: basket_top
+    400004: ChainGroup001
+    400006: ChainGroup002
+    400008: ChainGroup003
+    400010: ChainGroup004
+    400012: ChainGroup005
+    400014: ChainGroup006
+    400016: ChainGroup007
+    400018: ChainGroup008
+    400020: ChainGroup009
+    400022: ChainGroup010
+    400024: ChainGroup011
+    400026: ChainGroup012
+    400028: curve1
+    400030: curve1BaseWire
+    400032: curve1BaseWire1
+    400034: curve1BaseWire10
+    400036: curve1BaseWire11
+    400038: curve1BaseWire2
+    400040: curve1BaseWire3
+    400042: curve1BaseWire4
+    400044: curve1BaseWire5
+    400046: curve1BaseWire6
+    400048: curve1BaseWire7
+    400050: curve1BaseWire8
+    400052: curve1BaseWire9
+    400054: curve2
+    400056: curve3
+    400058: curve3 1
+    400060: curve3 2
+    400062: curve3 3
+    400064: curve3 4
+    400066: curve3 5
+    400068: curve3 6
+    400070: curve3 7
+    400072: curve3 8
+    400074: curve3 9
+    400076: //RootNode
+    400078: pCylinder47
+    400080: pCylinder48
+    400082: pCylinder49
+    400084: pCylinder49 1
+    400086: pCylinder49 2
+    400088: pCylinder49 3
+    400090: pCylinder49 4
+    400092: pCylinder49 5
+    400094: pCylinder49 6
+    400096: pCylinder49 7
+    400098: pCylinder49 8
+    400100: pCylinder49 9
+    2300000: basket_metalParts
+    2300002: basket_top
+    2300004: pCylinder47
+    2300006: pCylinder48
+    2300008: pCylinder49
+    2300010: pCylinder49 1
+    2300012: pCylinder49 2
+    2300014: pCylinder49 3
+    2300016: pCylinder49 4
+    2300018: pCylinder49 5
+    2300020: pCylinder49 6
+    2300022: pCylinder49 7
+    2300024: pCylinder49 8
+    2300026: pCylinder49 9
+    3300000: basket_metalParts
+    3300002: basket_top
+    3300004: pCylinder47
+    3300006: pCylinder48
+    3300008: pCylinder49
+    3300010: pCylinder49 1
+    3300012: pCylinder49 2
+    3300014: pCylinder49 3
+    3300016: pCylinder49 4
+    3300018: pCylinder49 5
+    3300020: pCylinder49 6
+    3300022: pCylinder49 7
+    3300024: pCylinder49 8
+    3300026: pCylinder49 9
+    4300000: basket_metalParts
+    4300002: basket_top
+    4300004: pCylinder47
+    4300006: pCylinder48
+    4300008: pCylinder49
+    4300010: pCylinder49
+    4300012: pCylinder49
+    4300014: pCylinder49
+    4300016: pCylinder49
+    4300018: pCylinder49
+    4300020: pCylinder49
+    4300022: pCylinder49
+    4300024: pCylinder49
+    4300026: pCylinder49
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

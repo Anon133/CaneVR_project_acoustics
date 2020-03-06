@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!241 &24100000
+AudioMixerController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Master
+  m_OutputGroup: {fileID: 0}
+  m_MasterGroup: {fileID: 24300002}
+  m_Snapshots:
+  - {fileID: 24500006}
+  m_StartSnapshot: {fileID: 24500006}
+  m_SuspendThreshold: -80
+  m_EnableSuspend: 1
+  m_UpdateMode: 0
+  m_ExposedParameters: []
+  m_AudioMixerGroupViews:
+  - guids:
+    - f46a48700b519604c9198253314cc705
+    name: View
+  m_CurrentViewIndex: 0
+  m_TargetSnapshot: {fileID: 24500006}
+--- !u!243 &24300002
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Master
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: f46a48700b519604c9198253314cc705
+  m_Children: []
+  m_Volume: dc04f8571df263e4c809b8207b94a649
+  m_Pitch: 0aa1180444c57084cb0139ffa6a73c57
+  m_Effects:
+  - {fileID: 244421083419740658}
+  - {fileID: 24400004}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &24400004
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: 4a573e990cb333f4cbccd8d68b2382c3
+  m_EffectName: Attenuation
+  m_MixLevel: 38ff2909dc897f54097d3816da796ea0
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!245 &24500006
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Snapshot
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: c6a339be331f20e438d5058639ff5af3
+  m_FloatValues:
+    7ba2cf7623ddedd47b3fc11e86b5d0df: 0
+    dc04f8571df263e4c809b8207b94a649: 0
+    0348c44c4f741864ea0d81cb136a2869: 0
+  m_TransitionOverrides: {}
+--- !u!244 &244421083419740658
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: d5ffee6ac1ea28b4a8b4d7df7c415720
+  m_EffectName: Project Acoustics Mixer
+  m_MixLevel: 44df8d4e87ff5874ea6d7e6875359ca0
+  m_Parameters:
+  - m_ParameterName: Reverb Adjust
+    m_GUID: 0348c44c4f741864ea0d81cb136a2869
+  - m_ParameterName: RT60 Scale
+    m_GUID: fccb50ec03ad1ac44949ea0cf556d867
+  - m_ParameterName: Use Panning
+    m_GUID: 7ba2cf7623ddedd47b3fc11e86b5d0df
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0

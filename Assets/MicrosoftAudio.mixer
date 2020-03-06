@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!241 &24100000
+AudioMixerController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MicrosoftAudio
+  m_OutputGroup: {fileID: 0}
+  m_MasterGroup: {fileID: 24300002}
+  m_Snapshots:
+  - {fileID: 24500006}
+  m_StartSnapshot: {fileID: 24500006}
+  m_SuspendThreshold: -80
+  m_EnableSuspend: 1
+  m_UpdateMode: 0
+  m_ExposedParameters: []
+  m_AudioMixerGroupViews:
+  - guids:
+    - 1212031fa293a26418e1f9a9ad21160d
+    name: View
+  m_CurrentViewIndex: 0
+  m_TargetSnapshot: {fileID: 24500006}
+--- !u!243 &24300002
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Master
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 1212031fa293a26418e1f9a9ad21160d
+  m_Children: []
+  m_Volume: b9e0ca2a4cfdb4f4d968887610b8b889
+  m_Pitch: ba481e091506ece449305465ddc86af5
+  m_Effects:
+  - {fileID: 24400004}
+  - {fileID: 244651941473793138}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &24400004
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 5669322ab338bdd4fa7122e867a2cde7
+  m_EffectName: Attenuation
+  m_MixLevel: a6541a560c3fea84981f4dcbec04b20a
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!245 &24500006
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Snapshot
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 0a6cf13003c0cf147bfa79282280968e
+  m_FloatValues: {}
+  m_TransitionOverrides: {}
+--- !u!244 &244651941473793138
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 39403d81bd224844ca2286e0d0f2c35b
+  m_EffectName: Project Acoustics Mixer
+  m_MixLevel: dfe0e001ad3cc444d866f51ea5e268e7
+  m_Parameters:
+  - m_ParameterName: Wetness Adjust
+    m_GUID: 208b9f8aa872d7d478e0d13e2c442f6f
+  - m_ParameterName: RT60 Scale
+    m_GUID: 9881330e99c62ad4b93bf573ca66f2d7
+  - m_ParameterName: Use Panning
+    m_GUID: cff9aa73d541f67478093309060f1544
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0

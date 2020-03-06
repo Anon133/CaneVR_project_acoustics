@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8bda38f7cecfd040ace6d870bc9a77e, type: 3}
+  m_Name: ProjectAcousticsDemo_AcousticParameters
+  m_EditorClassIdentifier: 
+  TritonImage: mcr.microsoft.com/acoustics/baketools
+  MeshUnitAdjustment: 1
+  SceneScale: 1
+  SpeedOfSound: -1
+  SimulationMaxFrequency: 500
+  ReceiverSampleSpacing: 1.5
+  ProbeHorizontalSpacingMin: 0.5
+  ProbeHorizontalSpacingMax: 3.5
+  ProbeVerticalSpacing: 1
+  ProbeMinHeightAboveGround: 0.75
+  PerProbeSimulationRegion_Small_Lower: {x: -45, y: -45, z: -5}
+  PerProbeSimulationRegion_Small_Upper: {x: 45, y: 45, z: 10}
+  PerProbeSimulationRegion_Large_Lower: {x: -45, y: -45, z: -10}
+  PerProbeSimulationRegion_Large_Upper: {x: 45, y: 45, z: 20}
+  SupportedAzureVMTypes:
+  - Standard_F8s_v2
+  - Standard_F16s_v2
+  - Standard_H8
+  - Standard_H16
+  SelectedVMType: 0
+  NodeCount: 1
+  UseLowPriorityNodes: 0
+  AcousticsDataFolder: Assets/AcousticsDemo/AcousticsData
+  DataFileBaseName: Acoustics_ProjectAcousticsDemo_Fine
+  ActiveJobID: 
+  MaterialsListElements:
+  - m_name: Carpet
+    m_absorptivity: 0.04
+    m_materialCode: 24
+  - m_name: Concrete
+    m_absorptivity: 0.04
+    m_materialCode: 7
+  - m_name: Default-Material
+    m_absorptivity: 0.04
+    m_materialCode: 35
+  - m_name: Drapery
+    m_absorptivity: 0.04
+    m_materialCode: 17
+  - m_name: Grass
+    m_absorptivity: 0.04
+    m_materialCode: 26
+  - m_name: Leather
+    m_absorptivity: 0.04
+    m_materialCode: 34
+  - m_name: Marble_Floor
+    m_absorptivity: 0.04
+    m_materialCode: 37
+  - m_name: Marble_Walls
+    m_absorptivity: 0.04
+    m_materialCode: 37
+  - m_name: Metal
+    m_absorptivity: 0.04
+    m_materialCode: 44
+  - m_name: Snow
+    m_absorptivity: 0.04
+    m_materialCode: 27
+  - m_name: Wood
+    m_absorptivity: 0.04
+    m_materialCode: 23

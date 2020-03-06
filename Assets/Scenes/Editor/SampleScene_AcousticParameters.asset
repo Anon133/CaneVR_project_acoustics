@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8bda38f7cecfd040ace6d870bc9a77e, type: 3}
+  m_Name: SampleScene_AcousticParameters
+  m_EditorClassIdentifier: 
+  TritonImage: mcr.microsoft.com/acoustics/baketools
+  MeshUnitAdjustment: 1
+  SceneScale: 1
+  SpeedOfSound: -1
+  SimulationMaxFrequency: 250
+  ReceiverSampleSpacing: 1.5
+  ProbeHorizontalSpacingMin: 0.5
+  ProbeHorizontalSpacingMax: 3.5
+  ProbeVerticalSpacing: 1
+  ProbeMinHeightAboveGround: 0.75
+  PerProbeSimulationRegion_Small_Lower: {x: -45, y: -45, z: -5}
+  PerProbeSimulationRegion_Small_Upper: {x: 45, y: 45, z: 10}
+  PerProbeSimulationRegion_Large_Lower: {x: -45, y: -45, z: -10}
+  PerProbeSimulationRegion_Large_Upper: {x: 45, y: 45, z: 20}
+  SupportedAzureVMTypes:
+  - Standard_F8s_v2
+  - Standard_F16s_v2
+  - Standard_H8
+  - Standard_H16
+  SelectedVMType: 0
+  NodeCount: 5
+  UseLowPriorityNodes: 0
+  AcousticsDataFolder: Assets\AcousticsData
+  DataFileBaseName: Acoustics_SampleScene
+  ActiveJobID: 
+  MaterialsListElements:
+  - m_name: blue
+    m_absorptivity: 0.1
+    m_materialCode: 2
+  - m_name: Concrete pattern 01
+    m_absorptivity: 0.1
+    m_materialCode: 31
+  - m_name: Concrete pattern 03
+    m_absorptivity: 0.1
+    m_materialCode: 31
+  - m_name: Concrete pattern 19
+    m_absorptivity: 0.1
+    m_materialCode: 31
+  - m_name: Default-Material
+    m_absorptivity: 0.1
+    m_materialCode: 35
+  - m_name: Door
+    m_absorptivity: 0.1
+    m_materialCode: 22
+  - m_name: "Fu\xDFboden"
+    m_absorptivity: 0.1
+    m_materialCode: 12
+  - m_name: "Gel\xE4nder"
+    m_absorptivity: 0.1
+    m_materialCode: 15
+  - m_name: Glas
+    m_absorptivity: 0.1
+    m_materialCode: 9
+  - m_name: Glossy
+    m_absorptivity: 0.1
+    m_materialCode: 2
+  - m_name: Glossy_Reflexion.jpg
+    m_absorptivity: 0.1
+    m_materialCode: 2
+  - m_name: Heizung
+    m_absorptivity: 0.1
+    m_materialCode: 14
+  - m_name: Player
+    m_absorptivity: 0.1
+    m_materialCode: 35
+  - m_name: red
+    m_absorptivity: 0.1
+    m_materialCode: 2
+  - m_name: st gold
+    m_absorptivity: 0.1
+    m_materialCode: 2
+  - m_name: st tile
+    m_absorptivity: 0.1
+    m_materialCode: 10
+  - m_name: standart meta1
+    m_absorptivity: 0.1
+    m_materialCode: 2
+  - m_name: standart metal
+    m_absorptivity: 0.1
+    m_materialCode: 44
+  - m_name: urn-newsml-dpa-com-20090101-160830-99-270911-large-4-3-jpg
+    m_absorptivity: 0.1
+    m_materialCode: 2
